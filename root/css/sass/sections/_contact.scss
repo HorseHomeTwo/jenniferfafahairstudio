@@ -1,0 +1,48 @@
+.section-contact {
+  background: #E8E8E8;
+  position: relative;
+}
+.section-contact__text {
+  background: #E8E8E8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  text-align: center;
+  @include media-query(sm) {
+    text-align: right;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 50px;
+  }
+}
+.section-contact__map {
+  position: relative;
+  background-color: #E5E3DF;
+  width: 100%;
+  height: 250px;
+  @include media-query(sm) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: auto;
+  }
+}
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.section-contact__map--overlay {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  @include media-query(sm) {
+    display: none;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/HorseHomeTwo/jenniferfafahairstudio.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
