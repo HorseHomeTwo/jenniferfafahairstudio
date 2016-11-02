@@ -3,7 +3,9 @@ var app = express();
 
 app.use(express.static('root'));
 
-var server = app.listen(8081, function () {
+var port = process.env.PORT || 8080;
+
+var server = app.listen(port, function () {
    var host = server.address().address
    var port = server.address().port
 
