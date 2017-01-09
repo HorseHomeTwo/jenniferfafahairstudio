@@ -21,7 +21,7 @@ $(document).ready(function() {
   });
 
   // Highlight day
-  $('.times-item:eq(' + new Date().getDay() + ')').addClass('active');
+  //$('.times-item:eq(' + new Date().getDay() + ')').addClass('active');
 
   // Hero resize
   $("#hero").height($(window).height() - 40);
