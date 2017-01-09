@@ -42,9 +42,8 @@
       <a class='section-hero__scroll scroll' href='#section-about'>Scroll Down</a>
       <div class='table-cell'>
         <div class='row'>
-          <h1 class='section-hero__logo'>
+          <h1 class='section-hero__logo' style="font-size:100px;font-weight: bold;">
             Jennifer FaFa Hair Studio
-            <div class='sr-only'>Welcome to Jennifer FaFa Hair Studio</div>
           </h1>
         </div>
       </div>
@@ -55,8 +54,6 @@
         <div class='row'>
           <h3>Opening times</h3>
           <div class='times-container'>
-            <div class='times-item hide'></div>
-            <div class='times-item hide'></div>
             <div class='times-item'>
               <div class='times-day__heading'> Monday </div>
               <div class='times-day__detail'>
@@ -138,7 +135,7 @@
             </tr>
             <tr>
               <td>Male Hair Color</td>
-              <td>85+<td>
+              <td>85+</td>
             </tr>
           </table>
           <table class='table-pricing'>
@@ -168,22 +165,22 @@
               <td>120+</td>
             </tr>
             <tr>
-              <td>Perm</td>
-              <td>95+</td>
-            </tr>
+              <td>Perm</td>
+              <td>95+</td>
+            </tr>
             <tr>
-              <td>Hair Nutrition</td>
-              <td>75+</td>
-            </tr>
+              <td>Hair Nutrition</td>
+              <td>75+</td>
+            </tr>
             <tr>
-              <td>Body Ash</td>
-              <td>180+</td>
-            </tr>
+              <td>Body Ash</td>
+              <td>180+</td>
+            </tr>
             <tr>
-              <td>Embre</td>
-              <td>180+</td>
-            </tr>
-          </table>
+              <td>Embre</td>
+              <td>180+</td>
+            </tr>
+          </table>
         </div>
       </div>
       <div class='row'>
@@ -194,25 +191,24 @@
         </div>
       </div>
     </div>
-    <!-- / SECTION GALLERY [NEED MODIFICATION] -->
-    <div class='section-gallery' id='section-gallery'>
-      <div id='instafeed'></div>
-      <div id='load-more'>
-        <div class='sr-only'>Load more images in feed</div>
-      </div>
+    <!-- / SECTION GALLERY -->
+    <div class='section-gallery' id='section-gallery' style="text-align:center;">
+      <br><br>
+      <img src="images/models/model-01.jpg" alt="Model Image" style="width:360px;height:500px;">
+      <img src="images/models/model-02.jpg" alt="Model Image" style="width:500px;height:500px;">
+      <img src="images/models/model-03.jpg" alt="Model Image" style="width:375px;height:500px;">
+      <img src="images/models/model-04.jpg" alt="Model Image" style="width:375px;height:500px;">
+      <img src="images/models/model-05.jpg" alt="Model Image" style="width:600px;height:500px;">
+      <img src="images/models/model-06.jpg" alt="Model Image" style="width:375px;height:500px;">
+      <img src="images/models/model-07.jpg" alt="Model Image" style="width:375px;height:500px;">
+      <img src="images/models/model-08.jpg" alt="Model Image" style="width:375px;height:500px;">
+      <img src="images/models/model-09.jpg" alt="Model Image" style="width:500px;height:500px;">
+      <img src="images/models/model-10.jpg" alt="Model Image" style="width:500px;height:500px;">
+      <img src="images/models/model-11.jpg" alt="Model Image" style="width:375px;height:500px;">
+      <img src="images/models/model-12.jpg" alt="Model Image" style="width:500px;height:500px;">
+      <img src="images/models/model-13.jpg" alt="Model Image" style="width:500px;height:500px;">
+      <img src="images/models/model-14.jpg" alt="Model Image" style="width:282px;height:500px;">
     </div>
-    <!-- / SECTION PRODUCTS [NOT IN USE]
-    <div class='section-products'>
-      <div class='row'>
-        <div class='section-products__table'>
-          <div class='section-products__table-cell'>
-            <img alt='Product logo for' src=''>
-          </div>
-          <div class='section-products__table-cell'>
-            <img alt='Product logo for' src=''>
-          </div>
-      </div>
-    </div>-->
     <!-- / SECTION CONTACT -->
     <div class='section-contact' id='section-contact'>
       <div class='row'>
@@ -231,8 +227,9 @@
         </div>
       </div>
       <div class='section-contact__map'>
-        <a class='section-contact__map--overlay' target='_blank' href='https://www.google.com/maps/place/308+King+St+N,+Waterloo,+ON+N2J+2Z2,+Canada/@43.4786859,-80.5274106,17z/data=!3m1!4b1!4m5!3m4!1s0x882bf3f470e60a2f:0xb0d4560b866ebd82!8m2!3d43.4786859!4d-80.5252219'></a>
-        <div id='map'></div>
+        <a href="https://www.google.ca/maps/place/308+King+St+N,+Waterloo,+ON+N2J+2Z2/@43.4781887,-80.5313436,15.33z/data=!4m5!3m4!1s0x882bf3f470e60a2f:0xb0d4560b866ebd82!8m2!3d43.4786859!4d-80.5252219" target="_blank">
+          <img src="images/map.png" alt="MAP" style="width:100%;height:100%;border:5px solid black;"">
+        </a>
       </div>
     </div>
     <!-- / SECTION FOOTER -->
@@ -258,20 +255,7 @@
       </div>
     </div>
   </div>
-  <link href='css/style.css' rel='stylesheet' type='text/css'>
   <script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
-  <script src='js/min/instafeed-min.js'></script>
-  <script src='https://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
-  <script src='js/min/scripts-min.js'></script>
-  <script>
-    // Typekit fonts
-    (function(d) {
-      var config = {
-        kitId: 'xqm2njv',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <script src='scripts.js'></script>
 </html>
