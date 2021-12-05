@@ -20,3 +20,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 .section-gallery {
 	margin-top: 50px;
 }
+
+.section-about__background, .section-aveda__background--1, .section-aveda__background--2 {
+	background-size: contain !important;
+}
